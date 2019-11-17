@@ -22,7 +22,8 @@ in source dir
 
 To install the firmware files  
 `sudo make install`
-
+`sudo dkms add .`
+`sudo dkms install 8822bu/1.1`
 
 To Unload driver you may need to disconnect the device  
 
